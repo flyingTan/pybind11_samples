@@ -52,7 +52,7 @@ googlemock/fused-src/
 googletest/fused-src/
 
 # Ignore vscode settings.
-.vscode/
+#.vscode/
 
 # gtags
 GPATH
