@@ -1,0 +1,12 @@
+README.md
+setup.py
+mmdet.egg-info/PKG-INFO
+mmdet.egg-info/SOURCES.txt
+mmdet.egg-info/dependency_links.txt
+mmdet.egg-info/not-zip-safe
+mmdet.egg-info/requires.txt
+mmdet.egg-info/top_level.txt
+src/nms_ext.cpp
+src/cpu/nms_cpu.cpp
+src/cuda/nms_cuda.cpp
+src/cuda/nms_kernel.cu
