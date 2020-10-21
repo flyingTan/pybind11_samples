@@ -47,5 +47,6 @@ target_link_libraries(nms_cuda_python PRIVATE nms_cpu nms_cuda)
 
 ## Add execuatable 
 add_executable(main main.cpp)
-target_link_libraries(main "${TORCH_LIBRARIES}")
+target_link_libraries(main ${TORCH_LIBRARIES} nms_cuda)
+#target_link_libraries(main PRIVATE nms_cuda)
 set_property(TARGET main PROPERTY CXX_STANDARD 14)
